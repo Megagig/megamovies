@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom';
 import PageNotFoundImage from '../assets/pagenotfound.png';
 import { Button } from '../components/Button';
+import { useEffect } from 'react';
 export const PageNotFound = () => {
+  //dynamic page title
+  useEffect(() => {
+    document.title = `404 Page Not Found - Megamovies`;
+  }, []);
+
   return (
     <main>
       <section className="flex flex-col justify-center px-3">

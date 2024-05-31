@@ -22,6 +22,10 @@ export const MovieDetail = () => {
     fetchMovie();
   }, []);
 
+  useEffect(() => {
+    document.title = `${movie.title}- Megamovies`;
+  });
+
   return (
     <main>
       <section className="flex justify-around flex-wrap py-5">
