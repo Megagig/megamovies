@@ -13,7 +13,7 @@ export const Footer = () => {
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
             <a
-              href="#"
+              href="https://www.instagram.com/megagigsolution/?hl=en"
               target="_blank"
               className="hover:underline me-4 md:me-6"
             >
@@ -22,7 +22,7 @@ export const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/obi-anthony/"
               target="_blank"
               className="hover:underline me-4 md:me-6"
             >
@@ -31,15 +31,19 @@ export const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://x.com/megagigsolution"
               target="_blank"
               className="hover:underline me-4 md:me-6"
             >
-              Youtube
+              Twitter
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" className="hover:underline">
+            <a
+              href="https://github.com/Megagig"
+              target="_blank"
+              className="hover:underline"
+            >
               Github
             </a>
           </li>
